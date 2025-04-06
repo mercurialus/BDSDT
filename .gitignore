@@ -1,0 +1,74 @@
+
+de.js ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Optional npm cache directory
+.npm
+
+# dotenv environment variables
+.env
+.env.*
+
+
+# --- Truffle ---
+build/
+contracts/*.abi
+contracts/*.bin
+truffle-config.js.backup
+.truffle/
+
+# Ignore test coverage output
+coverage/
+coverage.json
+lcov-report/
+lcov.info
+
+# Ignore debug log files
+*.log
+
+# --- Operating System Files ---
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# --- IDEs and Editors ---
+# VSCode
+.vscode/
+.history/
+
+# JetBrains (WebStorm, IntelliJ)
+.idea/
+*.iml
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# --- Git ---
+*.orig
+*.rej
+
+# --- Misc ---
+# Ignore test artifacts
+test/output/
+artifacts/
+
+# Ganache workspace files (optional)
+*.log
+db/
+chaindata/
+keystore/
+
